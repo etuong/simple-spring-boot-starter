@@ -1,7 +1,7 @@
 ### Application
 This is a very simple Spring Boot application that uses Flyway and Thymeleaf.
 
-This app only has one endpoint (`http://localhost:8080/greeting?{name}`) that displays a Hello World message and an image.
+This app only has one endpoint (`http://localhost:8080/greeting?name={name}`) that displays a Hello World message and an image.
 
 To run locally, use `./gradlew clean bootRun --args='--spring.profiles.active=local'` so that the app uses application-local.properties
 
